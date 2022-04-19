@@ -1,4 +1,4 @@
-theme: jekyll-theme-minimal
+#theme: jekyll-theme-minimal
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your entire site, values
@@ -8,7 +8,7 @@ theme: jekyll-theme-minimal
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Your Name / Site Title"
+title                    : "Jiandong Wang"
 title_separator          : "-"
 name                     : &name "Your Name"
 description              : &description "personal description"
