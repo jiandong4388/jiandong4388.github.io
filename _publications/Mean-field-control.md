@@ -1,7 +1,7 @@
 ---
 title: "Maximum principle for delayed stochastic mean-field control problem with state constraint"
 collection: publications
-permalink: /publication/Mean-field with delay
+permalink: /publication/Mean-field-control
 excerpt: ''
 date: 2019
 venue: 'Advances in Difference Equations'
