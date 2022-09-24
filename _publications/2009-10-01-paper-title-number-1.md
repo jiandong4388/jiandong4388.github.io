@@ -1,15 +1,10 @@
 ---
-title: "Paper Title Number 1"
+title: "Maximum principle for delayed stochastic mean-field control problem with state constraint"
 collection: publications
-permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
+permalink: /publication/Mean-field with delay
+excerpt: ''
 date: 2009-10-01
-venue: 'Journal 1'
-paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+venue: 'Advances in Difference Equations'
+paperurl: '[https://jiandong4388.github.io/files/Chen-Wang2019_Article_MaximumPrincipleForDelayedStoc.pdf](https://link.springer.com/article/10.1186/s13662-019-2283-1)'
+citation: 'Chen, L., Wang, J. (2019). Maximum principle for delayed stochastic mean-field control problem with state constraint. Advances in Difference Equations, 2019(1), 1-25.'
 ---
-This paper is about the number 1. The number 2 is left for future work.
-
-[Download paper here](http://academicpages.github.io/files/paper1.pdf)
-
-Recommended citation: Your Name, You. (2009). "Paper Title Number 1." <i>Journal 1</i>. 1(1).
