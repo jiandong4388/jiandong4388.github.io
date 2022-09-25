@@ -1,7 +1,7 @@
 ---
 title: "Robust covariance estimation with noisy highfrequency financial data"
 collection: Online
-permalink: /publication/Robust-RV
+permalink: /publication/robust-rv
 excerpt: ''
 date: 2022-03-01
 venue: 'Journal of Nonparametric Statistics'
