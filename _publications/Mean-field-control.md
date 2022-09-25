@@ -1,5 +1,5 @@
 ---
-title: "Maximum principle for delayed stochastic mean-field control problem with state constraint"(https://jiandong4388.github.io/files/Chen-Wang2019_Article_MaximumPrincipleForDelayedStoc.pdf)
+title: "Maximum principle for delayed stochastic mean-field control problem with state constraint"
 collection: publications
 permalink: /publication/Mean-field-control
 excerpt: ''
