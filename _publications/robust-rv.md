@@ -17,4 +17,3 @@ We propose consistent and efficient robust different time-scales estimators to m
 More details can be see in [the website](https://www.tandfonline.com/doi/abs/10.1080/10485252.2022.2075549?journalCode=gnst20)  
 Also you can see it online: [pdf](/files/robust.pdf)
 
-;citation: 'Wang, J., Bai, M. (2022): Robust covariance estimation with noisy high-frequency financial data, Journal of Nonparametric Statistics'
