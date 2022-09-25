@@ -8,7 +8,6 @@ redirect_from:
   - /about.html
 ---
 
-<h2>About me</h2>
   <p>I am currently a Ph.D. student in Beihang University since 2019.09. </p>
   <p>And joint-training Ph.D. student in University of Verona supported by China Scholarship Council(CSC) since 2022.01</p>
   <p>My main research interests include High-frequency Financial Econometrics,Time Series, Mathematical Finance and Stochastic Optimal Control. </p>
