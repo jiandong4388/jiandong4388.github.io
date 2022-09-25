@@ -14,14 +14,14 @@ redirect_from:
 
 
 
-# Education
+# _Education_
 
- - 2022 - Currently  Research Fellows. in Statistics,  Department of economics,  University of Verona(Jionting-training Ph.D., support by CSC)  
- -  2019 - Currently  Ph.D. in Statistics, School of Economics and Management, Beihang University   
+ - 2022 - Currently,  Research Fellows. in Statistics,  Department of economics,  University of Verona(Jionting-training Ph.D., support by CSC)  
+ -  2019 - Currently,  Ph.D. in Statistics, School of Economics and Management, Beihang University   
  - 2016 - 2019,      M.S.  in Statistics, School of Science, China University of Mining & Technology,Beijing   
  - 2012 - 2016,      B.S.  in Statistics, College of Science, North China University of Technology   
 
-# Research Interests
+# _Research Interests_
 
 - High-frequency financial econometrics
 - Stochastic control
