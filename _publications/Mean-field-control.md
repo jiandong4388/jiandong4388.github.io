@@ -8,7 +8,7 @@ venue: 'Advances in Difference Equations'
 
 
 ---
-***Abstract***    
+**Abstract**     
 In this paper, we consider the optimal control problem for the mean-field stochastic differential equations with delay and state constraint. By virtue of the classical Ekeland’s variational principle, the duality method and a new type of mean-field anticipated backward stochastic differential equation, we obtain the maximum principle of the optimal control for this problem. Our result can be applied to a harvest model from a mean-field system with delay.  
 
 
