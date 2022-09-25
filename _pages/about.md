@@ -1,11 +1,11 @@
 ---
-<h2>permalink: /
+permalink: /
 title: "About Me"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
   - /about/
-  - /about.html<h2 />
+  - /about.html
 ---
 <p>
   I am currently a Ph.D. student in [School of Economics and Management](http://sem.buaa.edu.cn/) at Beihang University since 2019.09. <br />
