@@ -16,7 +16,7 @@ _另外一种方法是积分法（注意：使用该方法的条件是  的特�
 $\log A=\int^1_0(A-I)[t(A-I)+I]^{-1}dt.$  
 
 例子：考虑如下矩阵：
- $A = \left( \begin{aligned}  &1,0\\   &1,1 \end{aligned} \right)$, 求  $\log A$.
+ $A = \begin{pmatrix} &1,0\\ &1,1\end{pmatrix}$, 求  $\log A$.
 
 - 采用第一种方法：  
 $A= I+B\\ $  
@@ -26,10 +26,10 @@ $$B= \left(\begin{aligned}  &0,0\\ &1,0\end{aligned}\right)\\ $$
 $$\log A=\log(I+B) = \sum_{k=1}^{\infty }{(-1)^{k+1}{\frac {B^{k}}{k}}}=B-{\frac {B^{2}}{2}}+{\frac {B^{3}}{3}}-{\frac {B^{4}}{4}}+\cdots $$  
 
 注意到：  
-$$B^k= \begin{pmatrix} &0,0\\ &1,0\end{pmatrix}  \begin{pmatrix} &&0,0\\ &1,0\end{pmatrix} \cdot B^{k-2}=\begin{pmatrix} &&0,0\\ &0,0\end{pmatrix},k=2,3,\cdots\\$$  
+$$B^k= \begin{pmatrix} &0,0\\ &1,0\end{pmatrix}  \begin{pmatrix} &0,0\\ &1,0\end{pmatrix} \cdot B^{k-2}=\begin{pmatrix} &0,0\\ &0,0\end{pmatrix},k=2,3,\cdots\\$$  
 所以  
-$$\log A=B= \left(\begin{aligned}  &0,0\\ &1,0\end{aligned}\right)$$  
-采用第二种方法，首先验证矩阵 $A$ 的特征值为 $1$ 不是负数，满足条件， 
+$$\log A=B= \begin{pmatrix} &&0,0\\ &1,0\end{pmatrix}$$  
+采用第二种方法，首先验证矩阵 $A$ 的特征值为 1 不是负数，满足条件， 
  
 Fisher 变换
 考虑两个随机变量之间的相关关系为 $\rho\in(0,1)$ ,则 Fisher 变换（也称Fisher Z-变换）：
@@ -44,6 +44,6 @@ $$\left( \begin{aligned}  &1,\rho\\   &\rho,1 \end{aligned} \right) $$
 
 至此，得到对数相关矩阵的结果。注意到副对角线正是Fisher 变换。这个结论在Arvhakov & Hansen的Econometrica 2021的文章中也有提到。
 
-__参考文献：
-Archakov, I., & Hansen, P. R. (2021). A new parametrization of correlation matrices.Econometrica,89(4), 1699-1715.
+_参考文献：_
+Archakov, I., & Hansen, P. R. (2021). A new parametrization of correlation matrices.Econometrica,89(4), 1699-1715.  
 Higham, N. J. (2008).Functions of matrices: theory and computation. Society for Industrial and Applied Mathematics.
