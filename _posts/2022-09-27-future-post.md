@@ -23,10 +23,10 @@ $A= I+B\\ $
 这里   
 $B= \left(\begin{aligned}  &0,0\\ &1,0\end{aligned}\right)\\ $  
 因此有：  
-$\log A=\log(I+B) = \sum _{k=1}^{\infty }{(-1)^{k+1}{\frac {B^{k}}{k}}}=B-{\frac {B^{2}}{2}}+{\frac {B^{3}}{3}}-{\frac {B^{4}}{4}}+\cdots $  
+$\log A=\log(I+B) = \sum_{k=1}^{\infty }{(-1)^{k+1}{\frac {B^{k}}{k}}}=B-{\frac {B^{2}}{2}}+{\frac {B^{3}}{3}}-{\frac {B^{4}}{4}}+\cdots $  
 
 注意到：  
-$B^k= \left(\begin{aligned}  &0,0\\ &1,0\end{aligned}\right) \left(\begin{aligned}  &0,0\\ &1,0\end{aligned}\right)\cdot B^{k-2}= \left(\begin{aligned}  &0,0\\ &0,0\end{aligned}\right),k=2,3,\cdots\\$  
+$$B^k= \begin{pmatrix} &0,0\\ &1,0\end{pmatrix}  \begin{pmatrix} &&0,0\\ &1,0\end{pmatrix} \cdot B^{k-2}=\begin{pmatrix} &&0,0\\ &0,0\end{pmatrix},k=2,3,\cdots\\$$  
 所以  
 $\log A=B= \left(\begin{aligned}  &0,0\\ &1,0\end{aligned}\right)\\$  
 采用第二种方法，首先验证矩阵 $A$ 的特征值为 $1$ 不是负数，满足条件， 
@@ -42,7 +42,7 @@ ${\displaystyle z={1 \over 2}\ln \left({1+\rho\over 1-\rho}\right).}$，
 $\left( \begin{aligned}  &1,\rho\\   &\rho,1 \end{aligned} \right) $  
 
 则（这里采用积分的方法，因为特征根为  不为负）：
-    \begin{align*} \log  \left( \begin{aligned}  &1,\rho\\   &\rho,1 \end{aligned} \right) &=\int^1_0\left( \left( \begin{aligned}  &1,\rho\\   &\rho,1 \end{aligned} \right)- \left( \begin{aligned}  &1,0\\   &0,1 \end{aligned} \right)\right)\left[t\left( \left( \begin{aligned}  &1,\rho\\   &\rho,1 \end{aligned} \right)- \left( \begin{aligned}  &1,0\\   &0,1 \end{aligned} \right)\right)+ \left( \begin{aligned}  &1,0\\   &0,1 \end{aligned} \right)\right]^{-1}dt\\ &=\int^1_0\left(  \begin{aligned}  &0,\rho\\   &\rho,0 \end{aligned} \right)\left( \begin{aligned}  &1,t\rho\\   &t\rho,1 \end{aligned} \right)^{-1}dt\\ &=\int^1_0\left(  \begin{aligned}  &0,\rho\\   &\rho,0 \end{aligned} \right)\left( \begin{aligned}  &\frac{1}{1-t^2\rho^2},\frac{-t\rho}{1-t^2\rho^2}\\   &\frac{1}{1-t^2\rho^2},\frac{1}{1-t^2\rho^2}\end{aligned} \right)dt\\ &=\int^1_0\left( \begin{aligned}  &-\frac{t\rho^2}{1-t^2\rho^2},\frac{\rho}{1-t^2\rho^2}\\   &\frac{\rho}{1-t^2\rho^2},-\frac{1\rho^2}{1-t^2\rho^2}\end{aligned} \right)dt\\ &=\left( \begin{aligned}  &\frac{1}{2}\ln(1-\rho^2),\frac{1}{2}\ln(\frac{1+\rho}{1-\rho})\\   &\frac{1}{2}\ln(\frac{1+\rho}{1-\rho}),\frac{1}{2}\ln(1-\rho^2)\end{aligned} \right).\\ \end{align*}
+    $$\begin{aligned} \log  \left( \begin{aligned}  &1,\rho\\   &\rho,1 \end{aligned} \right) &=\int^1_0\left( \left( \begin{aligned}  &1,\rho\\   &\rho,1 \end{aligned} \right)- \left( \begin{aligned}  &1,0\\   &0,1 \end{aligned} \right)\right)\left[t\left( \left( \begin{aligned}  &1,\rho\\   &\rho,1 \end{aligned} \right)- \left( \begin{aligned}  &1,0\\   &0,1 \end{aligned} \right)\right)+ \left( \begin{aligned}  &1,0\\   &0,1 \end{aligned} \right)\right]^{-1}dt\\ &=\int^1_0\left(  \begin{aligned}  &0,\rho\\   &\rho,0 \end{aligned} \right)\left( \begin{aligned}  &1,t\rho\\   &t\rho,1 \end{aligned} \right)^{-1}dt\\ &=\int^1_0\left(  \begin{aligned}  &0,\rho\\   &\rho,0 \end{aligned} \right)\left( \begin{aligned}  &\frac{1}{1-t^2\rho^2},\frac{-t\rho}{1-t^2\rho^2}\\   &\frac{1}{1-t^2\rho^2},\frac{1}{1-t^2\rho^2}\end{aligned} \right)dt\\ &=\int^1_0\left( \begin{aligned}  &-\frac{t\rho^2}{1-t^2\rho^2},\frac{\rho}{1-t^2\rho^2}\\   &\frac{\rho}{1-t^2\rho^2},-\frac{1\rho^2}{1-t^2\rho^2}\end{aligned} \right)dt\\ &=\left( \begin{aligned}  &\frac{1}{2}\ln(1-\rho^2),\frac{1}{2}\ln(\frac{1+\rho}{1-\rho})\\   &\frac{1}{2}\ln(\frac{1+\rho}{1-\rho}),\frac{1}{2}\ln(1-\rho^2)\end{aligned} \right).\\ \end{aligned}$$
 
 至此，得到对数相关矩阵的结果。注意到副对角线正是Fisher 变换。这个结论在Arvhakov & Hansen的Econometrica 2021的文章中也有提到。
 
