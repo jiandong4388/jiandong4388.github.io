@@ -11,7 +11,7 @@ tags:
 
 _考虑一个 $n \times n$  满秩（可逆）矩阵 $A$， 如何求解 $\log A$ ?_  
 __一种方法是进行级数展开：__  
-$ \log(A)= log(I+B)=\sum _{k=1}^{\infty }{(-1)^{k+1}{\frac {B^{k}}{k}}}=B-{\frac {B^{2}}{2}}+{\frac {B^{3}}{3}}-{\frac {B^{4}}{4}}+\cdots $  
+$$ \log(A)= log(I+B)=\sum _{k=1}^{\infty }{(-1)^{k+1}{\frac {B^{k}}{k}}}=B-{\frac {B^{2}}{2}}+{\frac {B^{3}}{3}}-{\frac {B^{4}}{4}}+\cdots $$  
 _另外一种方法是积分法（注意：使用该方法的条件是  的特征值不为负值）：_ 
 $\log A=\int^1_0(A-I)[t(A-I)+I]^{-1}dt.$  
 
