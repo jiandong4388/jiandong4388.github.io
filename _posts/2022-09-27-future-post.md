@@ -21,7 +21,7 @@ $\log A=\int^1_0(A-I)[t(A-I)+I]^{-1}dt.$
 - 采用第一种方法：  
 $A= I+B\\ $  
 这里   
-$B= \left(\begin{aligned}  &0,0\\ &1,0\end{aligned}\right)\\ $  
+$$B= \left(\begin{aligned}  &0,0\\ &1,0\end{aligned}\right)\\ $$ 
 因此有：  
 $$\log A=\log(I+B) = \sum_{k=1}^{\infty }{(-1)^{k+1}{\frac {B^{k}}{k}}}=B-{\frac {B^{2}}{2}}+{\frac {B^{3}}{3}}-{\frac {B^{4}}{4}}+\cdots $$  
 
