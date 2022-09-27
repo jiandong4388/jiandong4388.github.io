@@ -28,20 +28,18 @@ $\log A=\log(I+B) = \sum_{k=1}^{\infty }{(-1)^{k+1}{\frac {B^{k}}{k}}}=B-{\frac 
 注意到：  
 $$B^k= \begin{pmatrix} &0,0\\ &1,0\end{pmatrix}  \begin{pmatrix} &&0,0\\ &1,0\end{pmatrix} \cdot B^{k-2}=\begin{pmatrix} &&0,0\\ &0,0\end{pmatrix},k=2,3,\cdots\\$$  
 所以  
-$\log A=B= \left(\begin{aligned}  &0,0\\ &1,0\end{aligned}\right)\\$  
+$$\log A=B= \left(\begin{aligned}  &0,0\\ &1,0\end{aligned}\right)$$  
 采用第二种方法，首先验证矩阵 $A$ 的特征值为 $1$ 不是负数，满足条件， 
  
 Fisher 变换
 考虑两个随机变量之间的相关关系为 $\rho\in(0,1)$ ,则 Fisher 变换（也称Fisher Z-变换）：
-${\displaystyle z={1 \over 2}\ln \left({1+\rho\over 1-\rho}\right).}$
+$${\displaystyle z={1 \over 2}\ln \left({1+\rho\over 1-\rho}\right).}$$
 
-对数相关矩阵和Fisher 变换之间的关系：
-为解释二者之间的联系，我们考虑一个二维随机变量 
-${\displaystyle z={1 \over 2}\ln \left({1+\rho\over 1-\rho}\right).}$，
-形成的相关矩阵（记 $(X,Y)$  之间的相关系数为  $\rho\in (0,1)$）:
-$\left( \begin{aligned}  &1,\rho\\   &\rho,1 \end{aligned} \right) $  
+_对数相关矩阵和Fisher 变换之间的关系：_
+为解释二者之间的联系，我们考虑一个二维随机变量 $(X,Y)$ 形成的相关矩阵（记 $(X,Y)$  之间的相关系数为  $\rho\in (0,1)$）:
+$$\left( \begin{aligned}  &1,\rho\\   &\rho,1 \end{aligned} \right) $$ 
 
-则（这里采用积分的方法，因为特征根为  不为负）：
+则（这里采用积分的方法，因为特征根为 $1\pm \rho$  不为负）：
     $$\begin{aligned} \log  \left( \begin{aligned}  &1,\rho\\   &\rho,1 \end{aligned} \right) &=\int^1_0\left( \left( \begin{aligned}  &1,\rho\\   &\rho,1 \end{aligned} \right)- \left( \begin{aligned}  &1,0\\   &0,1 \end{aligned} \right)\right)\left[t\left( \left( \begin{aligned}  &1,\rho\\   &\rho,1 \end{aligned} \right)- \left( \begin{aligned}  &1,0\\   &0,1 \end{aligned} \right)\right)+ \left( \begin{aligned}  &1,0\\   &0,1 \end{aligned} \right)\right]^{-1}dt\\ &=\int^1_0\left(  \begin{aligned}  &0,\rho\\   &\rho,0 \end{aligned} \right)\left( \begin{aligned}  &1,t\rho\\   &t\rho,1 \end{aligned} \right)^{-1}dt\\ &=\int^1_0\left(  \begin{aligned}  &0,\rho\\   &\rho,0 \end{aligned} \right)\left( \begin{aligned}  &\frac{1}{1-t^2\rho^2},\frac{-t\rho}{1-t^2\rho^2}\\   &\frac{1}{1-t^2\rho^2},\frac{1}{1-t^2\rho^2}\end{aligned} \right)dt\\ &=\int^1_0\left( \begin{aligned}  &-\frac{t\rho^2}{1-t^2\rho^2},\frac{\rho}{1-t^2\rho^2}\\   &\frac{\rho}{1-t^2\rho^2},-\frac{1\rho^2}{1-t^2\rho^2}\end{aligned} \right)dt\\ &=\left( \begin{aligned}  &\frac{1}{2}\ln(1-\rho^2),\frac{1}{2}\ln(\frac{1+\rho}{1-\rho})\\   &\frac{1}{2}\ln(\frac{1+\rho}{1-\rho}),\frac{1}{2}\ln(1-\rho^2)\end{aligned} \right).\\ \end{aligned}$$
 
 至此，得到对数相关矩阵的结果。注意到副对角线正是Fisher 变换。这个结论在Arvhakov & Hansen的Econometrica 2021的文章中也有提到。
