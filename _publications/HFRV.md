@@ -25,4 +25,4 @@ simulations. We find that our method is robust to misspecification of the unknow
 form given finite sample size. Furthermore, an empirical application using high-frequency data
 demonstrates that our method outperforms commonly employed parametric methods.  
 
-More details can be see in [the website]([https://www.sciencedirect.com/science/article/pii/S0304407624000368?via%3Dihub])  
+More details can be see in [the website](https://www.sciencedirect.com/science/article/pii/S0304407624000368?via%3Dihub)  
