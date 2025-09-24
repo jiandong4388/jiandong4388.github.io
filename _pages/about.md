@@ -8,8 +8,9 @@ redirect_from:
   - /about.html
 ---
   
-  I am currently a Ph.D. student in [School of Economics and Management](http://ibc.scnu.edu.cn/) at Beihang University since 2019.09.  
-  And joint-training Ph.D. student in [Department of economics](https://www.dse.univr.it/) at University of Verona supported by China Scholarship Council(CSC) since 2022.01  
+  I am currently a Ph.D. student in [Internal Bussiness College](http://ibc.scnu.edu.cn/) at South China Normal University since 2025.04.  
+  
+  
 
 
 
