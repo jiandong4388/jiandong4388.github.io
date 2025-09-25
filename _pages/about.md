@@ -22,7 +22,7 @@ redirect_from:
  - 2022.01 - 2024.01,  Research Fellows. in Statistics,  Department of economics,  University of Verona(Jionting-training Ph.D., support by CSC)  
  - 2019.09 - 2025.01,  Ph.D. in Statistics, School of Economics and Management, Beihang University   
  - 2016.09 - 2019.06,      M.S.  in Statistics, School of Science, China University of Mining & Technology,Beijing   
- #- 2012.06 - 2016.09,      B.S.  in Statistics, College of Science, North China University of Technology   
+ - 2012.06 - 2016.09,      B.S.  in Statistics, College of Science, North China University of Technology   
 
 # Research Interests
 
