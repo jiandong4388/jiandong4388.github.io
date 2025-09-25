@@ -8,7 +8,8 @@ redirect_from:
   - /about.html
 ---
   
-  I am currently a Ph.D. student in [Internal Bussiness College](http://ibc.scnu.edu.cn/) at South China Normal University since 2025.04.  
+  I am currently a Ph.D. student in [Internal Bussiness College](http://ibc.scnu.edu.cn/) at South China Normal University since 2025.04. I got my Ph.D. degree in Economics (Statistics) from School of Economics and Management, Beihang University in 2025.
+  
   
   
 
