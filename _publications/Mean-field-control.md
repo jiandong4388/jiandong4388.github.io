@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/Mean-field-control
 excerpt: ''
 date: 2019-09
-venue: 'European Journal of Operational Research'
+venue: 'Advances in Difference Equations'
 
 
 ---
