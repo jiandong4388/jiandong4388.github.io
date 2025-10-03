@@ -3,7 +3,7 @@ title: "Maximum principle for delayed stochastic mean-field control problem with
 collection: publications
 permalink: /publication/Mean-field-control
 excerpt: ''
-date: 2019-09
+date: 2019-09-03
 venue: 'Advances in Difference Equations'
 
 
