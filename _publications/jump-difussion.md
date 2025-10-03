@@ -1,10 +1,10 @@
 ---
 title: "A jump-diffusion Stackelberg stochastic differential game in optimal carbon abatement strategies with green subsidy"
 collection: Online
-permalink: /publication/HFRV
+permalink: /publications/jump-difussion
 excerpt: ''
 date: 2025-09
-venue: 'Journal of Econometrics'
+venue: 'European Journal of Operational Research'
 
 
 
