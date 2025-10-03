@@ -3,7 +3,7 @@ title: "A jump-diffusion Stackelberg stochastic differential game in optimal car
 collection: Online
 permalink: /publication/jump-difussion
 excerpt: ''
-date: 2025-09
+date: 2025-09-29
 venue: 'European Journal of Operational Research'
 
 
