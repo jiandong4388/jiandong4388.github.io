@@ -12,17 +12,6 @@ venue: 'European Journal of Operational Research'
 ---
 **Abstract**
 
-We propose nonparametric estimators for the explicative part of the noise in a model where the
-market microstructure noise is an unknown function of the trading information while allowing
-for the presence of an additional residual noise component. Our method allows for dependence
-in the observable trading information and accommodates the presence of infinite variation
-jumps in the efficient price process. We establish the convergence and asymptotic normality
-of the proposed estimators. We also propose a two-step Laplace estimator of integrated
-volatility where we replace the observed price with the estimated price by removing the
-explicative part of the market microstructure noise. The finite sample properties of both the
-nonparametric estimators and the two-step Laplace estimator are examined through Monte Carlo
-simulations. We find that our method is robust to misspecification of the unknown functional
-form given finite sample size. Furthermore, an empirical application using high-frequency data
-demonstrates that our method outperforms commonly employed parametric methods.  
+The increasingly severe challenges of global warming necessitate a low-carbon transition that involves quantified estimation of carbon emission reduction policies. Carbon trading with abatement subsidization has proven to be an effective measure for evaluating the social cost of carbon emissions. However, conflicting targets between the government and firms can cause principal–agent issues in reducing carbon dioxide emissions. We propose a novel Itô-Lévy jump-diffusion state equation to depict the dramatic fluctuations of carbon prices, a critical factor in carbon trading. To analyze the complex game behaviors in carbon abatement, we construct a multiple players Stackelberg stochastic differential game model applying stochastic optimal control theory in principal–agent situations. Our model examines the incentive compatibility mechanism while considering the complex behaviors of carbon trading participants with asymmetric information. Optimal feedback control strategies are explicitly presented for the government and firms to achieve their separate targets of maximizing social welfare and production profits. Green subsidization coupled with carbon quotas trading is a viable option for promoting carbon abatement. However, high-carbon firms may attempt to deceive the government by pretending to be low-carbon ones. We illustrate that carbon traders with deceptive intentions lead to negative social welfare and hinder carbon abatement achievements.
 
 More details can be see in [the website](https://www.sciencedirect.com/science/article/pii/S0377221725007738)  
